@@ -1,0 +1,259 @@
+body{
+    background-color: rgb(172, 204, 204);
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(127, 67, 161);
+    border: 2px solid purple;
+    /* border-radius: 20px; */
+}
+#logo{
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 20px;
+}
+#nav2{
+    display: flex;
+    flex-wrap: wrap;
+}  
+.nav3{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 1.8rem;
+
+}
+#navbar::before{
+    content:"";
+    background-color: rgb(87, 93, 175);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    /* border-radius: 20%; */
+}
+#navbar{
+    /* margin-left: 2px; */
+    position: sticky;
+    width: 98%;
+    float: left;
+    position: fixed;
+    /* z-index: -1; */
+}
+#home{
+    /* background: url('bg.jpg') no-repeat center center/cover; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 580px;
+    width: 380px;
+    padding: 100px 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+@media (max-width:663px){
+    #home{
+        width: 500px;
+    }
+}
+#wellcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#wellcome .well{
+    font-size: 5px;
+    position: relative;
+    opacity: 100;
+    z-index:1;
+    /* padding: 10px; */
+    margin-top: 2px;
+}
+
+#home p{
+    color: rgb(196, 134, 238);
+    font-size: 1rem;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:650px){
+    #home{
+        width: 650px;
+    }
+}
+@media (max-width:411px){
+    #home{
+        width: 411px;
+    }
+}
+@media (max-width:360px){
+    #home{
+        width: 360px;
+    }
+}
+/* @media (max-width:222px){
+    .h-primary{
+        margin-top: 350px;
+    }
+}  */
+#h-primary{
+    font-size: 0.5em;
+}
+.h-primary{
+    color:rgb(241, 111, 139);
+    margin-top: 100px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* <h1 class="h-primary">WEllcome to my World</h1> */
+.h-primary1{
+    color:black;
+    font-size: 2rem;
+    /* margin-top: 250px; */
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 110%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li a{
+    color: seashell;
+    padding: 9px;
+}
+
+ul li a:hover{
+    color: black;
+    background-color: thistle;
+    border-radius: 25px;
+}
+@media(max-width:827px){
+    #logo{
+        display: block;
+        width: 85px;
+        height: 60px;
+        margin: auto;
+    }
+    #navbar{
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar::before{
+        content: "";
+        background-color: rgb(87, 93, 175);
+        position: absolute;
+        height: 25%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+}
+.btn{
+    background-color: rgb(140, 201, 209);
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    font-size: 23px;
+}
+.btn:hover{
+    background-color: rgb(124, 143, 230);
+}
+#head{
+    /* margin-top: 50px; */
+}
+#navbar{
+    margin-top: 0px;
+}
+#home2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product{
+    width: 240px;
+    height: 230px;
+    border: 2px solid black;
+    
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.prods{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 90px;
+    background-color: rgb(174, 238, 185);
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    
+}
+.prods2{
+    margin-left: 8px;
+    z-index: 1;
+}
+.prods2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: blue;
+    z-index: 1;
+    font-style: normal;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:480px){
+    #products{
+        margin-right: 58px;
+        margin-left: 5px;
+    }
+    .h-primary{
+        margin-top: 140px;
+    }
+}
+@media(max-width:832px){
+    #navbar::before{
+        content: "";
+        background-color: rgb(87, 93, 175);
+        position: absolute;
+        height: 105%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+}
+@media(max-width:320px){
+    #products{
+        margin-right: 68px;
+        margin-left: 5px;
+    }
+}
+@media(max-width:375px){
+    #products{
+        margin-right: 68px;
+        margin-left: 5px;
+    }
+}
+@media(max-width:1025px){
+    #products{
+        margin-right: 108px;
+        margin-left: 55px;
+    }
+}
+/* @media(max-height:1366px){
+    #products{
+        margin-right: 88px;
+        margin-left: 225px;
+    }
+} */
