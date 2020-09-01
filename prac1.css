@@ -25,6 +25,11 @@ body{
     font-size: 1.8rem;
 
 }
+@media(max-width:710px){
+    .nav3{
+        margin-top: 13px;
+    }
+}
 #navbar::before{
     content:"";
     background-color: rgb(87, 93, 175);
@@ -219,7 +224,7 @@ a{
         margin-left: 5px;
     }
     .h-primary{
-        margin-top: 140px;
+        margin-top: 190px;
     }
 }
 @media(max-width:832px){
