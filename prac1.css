@@ -256,6 +256,11 @@ a{
         margin-left: 55px;
     }
 }
+@media(max-width:390px){
+    #navbar{
+        position: sticky;
+    }
+}
 /* @media(max-height:1366px){
     #products{
         margin-right: 88px;
